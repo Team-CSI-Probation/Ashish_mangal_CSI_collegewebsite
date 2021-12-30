@@ -1,0 +1,413 @@
+@charset "utf-8";
+body{
+    background-color: #ddd1c1;
+    padding:20px;
+
+    margin: 0;
+    padding: 0;
+
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./photo/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    height:60px;
+    background-color: #deb887;
+    box-shadow: 2px 2px 12px rgba(44, 34, 34, 0.5);
+    padding: 0px 5%;
+    width:100%;
+    position:fixed;
+    z-index:1;
+    left:0px;
+    right:0px;
+   
+}
+.logo1{
+    position:relative;
+    width:50px;
+    height:50px;
+    right:-30px;
+}
+nav ul{
+    display: flex;
+    
+}
+nav ul li a{
+    margin: 30px;
+    font-family:myriad pro regular;
+    color:#505050;
+    font-size: 18px;
+    font-weight: 700;
+    
+}
+.logo{
+    
+    font-size:30px;
+    color:#000000;
+    font-family:myriad pro regular;
+}
+a:hover{
+    color:#0000ff;
+    padding: 7px;
+}
+.text-container{
+    background-color:rgb(147, 195, 223,0.5);
+    background-size:cover;
+}
+.text-container p:nth-child(1){
+    font-family: calibri;
+    font-weight:bold;
+    color:black;
+    background-color: #e6e3e3;
+    font-size:22px;
+}
+.text-container p:nth-child(2){
+    font-family: calibri;
+    font-weight:bold;
+    color:YELLOW;
+    
+    letter-spacing:1px;
+    font-size:60px;
+}
+.text-container p:nth-child(3){
+    font-family: myriad pro regular;
+    font-weight:bold;
+    color:#cc1717;
+    font-size:22px;
+}
+.text-container p{
+    line-height: 0px;
+    margin:45px 0px 25px;
+}
+.text-container{
+    position:absolute;
+    left:13%;
+    top:42%;
+    transform:translate(-13%,-42%);
+}
+.text-container button{
+    width:130px;
+    height:42px;
+    border-radius: 10px;
+    font-family: calibri;
+    font-weight: bold;
+    font-size:14px;
+    outline:none;
+    margin:0px 10px;
+}
+button:active{
+    transform:scale(1.1);
+}
+.model{
+    height:300px;
+    position:absolute;
+    bottom:0px;
+    left:70%;
+    transform:translateX(-130%);
+}
+.about-container{
+    width:80%;
+    height:330px;
+    background-color:#ffffff;
+    border-radius: 20px;
+    box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+   
+    margin:-2% auto 20px auto;
+    position:relative;
+}
+#para1{
+    text-decoration: underline;
+    text-shadow: crimson;
+    text-align:center;
+    margin:10px;
+    padding:10px;
+    font-weight:bold;
+    font-size:30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#para2{
+    text-decoration: none;
+     font-size:25px;
+    
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+#para3{
+    text-decoration: none;
+    font-size:20px;
+    font-family: 'Times New Roman', Times, serif;
+    word-wrap: break-word;
+    word-spacing: 5px;
+    line-height: 40px;
+    padding:5px;
+    margin:20px;
+    color:rgba(76, 173, 89, 1);
+}
+.skills{
+    height:500px;
+    background-color:#ffffff;
+    padding:40px;
+    margin:30px;
+    border-radius:20px;
+
+}
+.skills-text p:nth-child(1){
+    font-family:calibri;
+    font-weight:bold;
+    color:#3e3d3d;
+    font-size:50px;
+    line-height:5px;
+    text-align: center;
+}
+.box1,.box2,.box3{
+    width:300px;
+    height:300px;
+    border-radius: 10%;
+    background-repeat:no-repeat;
+    background-size: cover;
+    box-shadow:2px 2px 12px rgba(0,0,0,0.7);
+}
+.box-container{
+    display: flex;
+    justify-content: space-between;
+    padding:40px;
+    margin:40px;
+}
+.box1{
+    background-image: url(./photo/csi.png);
+    background-size: cover;
+    background-size: 300px;
+    background-position: 50%;
+}
+    
+.box2{
+    
+    background-image: url(./photo/si.jfif);
+    background-size: cover;
+    background-size: 400px;
+    background-position: 50%;
+}
+
+.box3{
+    background-image: url(./photo/sae.png);
+    background-size: cover;
+    background-size: 200px;
+    background-position: 50%;
+}
+.company{
+    height:500px;
+    background-color:#ffffff;
+    padding:40px;
+    margin:30px;
+    border-radius:20px;
+
+}
+.company-text p:nth-child(1){
+    font-family:calibri;
+    font-weight:bold;
+    color:#3e3d3d;
+    font-size:50px;
+    line-height:5px;
+    text-align: center;
+}
+.box4,.box5,.box6{
+    width:300px;
+    height:300px;
+    border-radius: 10%;
+    background-repeat:no-repeat;
+    background-size: cover;
+    box-shadow:2px 2px 12px rgba(0,0,0,0.7);
+}
+.box-container{
+    display: flex;
+    justify-content: space-between;
+    padding:40px;
+    margin:40px;
+}
+.box4{
+    background-image: url(./photo/amazon.png);
+    background-size: cover;
+    background-size: 300px;
+    background-position: 50%;
+}
+    
+.box5{
+    
+    background-image: url(./photo/flipkart.jpg);
+    background-size: cover;
+    background-size: 400px;
+    background-position: 50%;
+}
+
+.box6{
+    background-image: url(./photo/tata.png);
+    background-size: cover;
+    background-size: 200px;
+    background-position: 50%;
+}
+.education{
+    height:300px;
+    background-color: #f1e0c9;
+    box-shadow: 20px rgba(0,0,0,0.7);
+    margin:40px;
+    padding:10px;
+    border-radius:20px;
+}
+#para4{
+    text-decoration: underline;
+    font-size:40px;
+    text-align: center;
+    font-size: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color:black;
+}
+.p5{
+    text-decoration: none;
+    font-size:20px;
+    position:relative;
+    right:-10%;
+    font-family:Consolas;
+
+}
+footer{
+    height:300px;
+    position:relative;
+    display:flex;
+    background-color: #565555;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+}
+footer p{
+    font-family:calibri;
+    
+}
+footer p:nth-child(1)
+{
+    font-size:30px;
+    font-weight:bold;
+    color:#191919;
+    line-height:10px;
+
+}
+footer p:nth-child(2)
+{
+    font-size:16px;
+    color:#7e7d7d;
+    width:600px;
+    text-align:center;
+    
+}
+.social-icon a{
+    width:40px;
+    height:40px;
+    display:flex ;
+    justify-content:center;
+    align-items:center;
+    background-color: #afbe26;
+    margin:20px 10px;
+    border-radius:50%;
+}
+.social-icon{
+    display:flex;
+}
+.copyright{
+    color:black;
+    font-size:15px;
+    position:absolute;
+    left:50%;
+    bottom:10px;
+    transform:translateX(-50%);
+}
+.social-icon a:hover{
+    box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+    transition: all ease 0.5s;
+}
+.slider{
+    background-color:rgba(223, 209, 21, 0.2);
+    width:90%;
+    height:500px;
+    border-radius:50px;
+    margin:20px 20px;
+    padding:2px;
+    position:relative;
+    right:-40px;
+    box-shadow:5px 10px rgba(12,40,76,0.7);
+    
+}
+.shead{
+    padding:8px;
+    font: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align:center;
+}
+.maindiv{
+    width:40vw;
+    height:60vh;
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    box-shadow:1px 2px 10px solid white;
+    animation:slider 40s infinite linear;
+
+}
+@keyframes slider{
+    0%{
+        background-image:url('./photo/akgec1.jpg');
+        background-repeat: no-repeat;
+        background-size:cover;
+
+    }
+    18%{
+        background-image:url('./photo/akgec2.jpg');
+        background-repeat: no-repeat;
+        background-size:cover;
+
+    }
+    36%{
+        background-image:url('./photo/akgec3.jpg');
+        background-repeat: no-repeat;
+        background-size:cover;
+        
+    }
+    54%{
+        background-image:url('./photo/akgec4.jfif');
+        background-repeat: no-repeat;
+        background-size:cover;
+        
+    }
+    72%{
+        background-image:url('./photo/akgec5.jpg');
+        background-repeat: no-repeat;
+        background-size:cover;
+        
+    }
+    90%{
+        background-image:url('./photo/akgec6.jpg');
+        background-repeat: no-repeat;
+        background-size:cover;
+        
+    }
+    100%{ background-image:url('./photo/akgec.jfif');
+        background-repeat: no-repeat;
+        background-size:cover;
+
+    }
+    
+}
